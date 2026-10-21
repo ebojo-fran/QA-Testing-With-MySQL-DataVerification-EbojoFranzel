@@ -51,7 +51,7 @@ These are the actual submitted records transcribed from the latest screenshot. T
 
 | Database id | First Name | Last Name | Government Position | Entered / previewed Location | Stored Location |
 | --- | --- | --- | --- | --- | --- |
-| 2 | Cyrus Bryen | lim | single | silay | NULL |
+| 2 | Franzel | ebojo | victorias city | silay | NULL |
 | 3 | test | Test | Test | Test | NULL |
 | 4 | Alex | t1 | Test Mayor | silay (tester-reported) | NULL |
 | 5 | Hello | Hii | Ambot | bcd (tester-reported) | NULL |
@@ -155,7 +155,7 @@ The supplied [database screenshot](evidence/database-results.png) shows the foll
 | id | FirstName | LastName | GovPosition | Location |
 | --- | --- | --- | --- | --- |
 | 1 | Baseline | QARecord | Test Position | Test Location |
-| 2 | Cyrus Bryen | lim | single | NULL |
+| 2 | Franzel | ebojo | single | NULL |
 
 `SELECT * FROM main_corrupt_politicians;` returned **2 rows in set (0.007 sec)**. The count query returned **total_rows = 2**, with **1 row in set (0.002 sec)**.
 
@@ -166,7 +166,7 @@ The [latest database screenshot](evidence/database-five-submissions.png) provide
 | id | FirstName | LastName | GovPosition | Location |
 | --- | --- | --- | --- | --- |
 | 1 | Baseline | QARecord | Test Position | Test Location |
-| 2 | Cyrus Bryen | lim | single | NULL |
+| 2 | Franzel | ebojo | single | NULL |
 | 3 | test | Test | Test | NULL |
 | 4 | Alex | t1 | Test Mayor | NULL |
 | 5 | Hello | Hii | Ambot | NULL |
