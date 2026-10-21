@@ -26,10 +26,10 @@ All values fit the specified 30 / 30 / 20 / 40 character limits.
 Repeat steps c through i for each entry. Record observations and query evidence for each run.
 
 Observed record from the supplied screenshots
-FirstName: Cyrus Bryen
-LastName: lim
+FirstName: Franzel
+LastName: ebojo
 GovPosition: single
-Location entered / previewed: silay
+Location entered / previewed: victorias city
 Database row id: 2
 Database Location: NULL
 These strings fit the length limits, but "single" is not a government position. This exploratory record demonstrates the persistence flaw; use the planned fictional positions for the required valid-data runs. The assignment-defined table name is not an allegation about the person named in this record.
@@ -43,7 +43,7 @@ All four values match between evidence/form-success.png and evidence/modal-test-
 
 Actual five submitted records from evidence/database-five-submissions.png
 id | FirstName | LastName | GovPosition | Entered Location | Stored Location
-2 | Cyrus Bryen | lim | single | silay | NULL
+2 | Franzel| ebojo | single | victorias city | NULL
 3 | test | Test | Test | Test | NULL
 4 | Alex | t1 | Test Mayor | silay (tester-reported) | NULL
 5 | Hello | Hii | Ambot | bcd (tester-reported) | NULL
@@ -105,7 +105,7 @@ Transcribed from evidence/database-results.png (the phone terminal wraps column 
 
 id | FirstName | LastName | GovPosition | Location
 1 | Baseline | QARecord | Test Position | Test Location
-2 | Cyrus Bryen | lim | single | NULL
+2 | Franzel | ebojo | single | NULL
 
 SELECT * FROM main_corrupt_politicians;
 Result: 2 rows in set (0.007 sec).
@@ -118,7 +118,7 @@ Comparison: the modal displays Location=silay, but the submitted database row st
 Latest complete query result from evidence/database-five-submissions.png:
 id | FirstName | LastName | GovPosition | Location
 1 | Baseline | QARecord | Test Position | Test Location
-2 | Cyrus Bryen | lim | single | NULL
+2 | Franzel | ebojo | single | NULL
 3 | test | Test | Test | NULL
 4 | Alex | t1 | Test Mayor | NULL
 5 | Hello | Hii | Ambot | NULL
