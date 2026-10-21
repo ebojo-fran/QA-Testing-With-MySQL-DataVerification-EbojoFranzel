@@ -25,7 +25,7 @@ Supplemental files: `TestCase.txt` contains the execution worksheet; `setup.sql`
 | Observed test data | Five submitted records (ids 2–6) plus one setup baseline. Actual records differ from the originally suggested examples. |
 | Execution status | Failed: all five submitted Location values differ from the stored NULL values. Ids 2–3 are supported by form/modal screenshots; entered locations for ids 4–6 are tester-reported. Cancellation passed in the separate rerun: count remained 6 and form values were retained. |
 | Observed environment | Phone browser at localhost and MariaDB terminal; software versions not supplied. |
-| Evidence compilation date | 12 October 2026; execution date and tester not supplied. |
+| Evidence compilation date | 16 October 2026; execution date and tester not supplied. |
 
 ### Execution Table
 
